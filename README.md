@@ -1,0 +1,2 @@
+# practiceJava
+Repository for JavaPractice
