@@ -66,5 +66,14 @@ public class p7_printArrayinReverseOrder {
 			System.out.println(myArray[i]);
 		}
 		//System.out.println(myArray[]);
+		 String[] array = {"asdsf", "sd"};
+
+	        // Print the array in reverse order
+	        System.out.println("Array elements in reverse order:");
+	        for (int i = array.length - 1; i >= 0; i--) {
+	            System.out.println(array[i]);
+	        }
+	        System.out.println(array);
+		
 	}
 	}
