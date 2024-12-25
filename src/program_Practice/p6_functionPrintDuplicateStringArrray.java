@@ -1,6 +1,6 @@
 package program_Practice;
 
-public class p5_printSumofArray {
+public class p6_functionPrintDuplicateStringArrray {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
@@ -41,17 +41,31 @@ public class p5_printSumofArray {
 //	Write a code in Java to prove that String objects are immutable 
 //	program to count the number of words in a string 
 //	program to check whether a string is a Palindrome 
+	
+//Print Duplicate String of array
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arraySum = {1,2,3,45,66,54,22};
-		int k;
-		int sum=0;
-		System.out.println(k=arraySum.length);
-		for (int i=0;i<k ; i++)
-		{
-			sum +=arraySum[i];
+		String string = "Big black bug bit a big black dog on his big black nose";
+		System.out.println(string);
+		int count;
+		//Converts the string into lowercase
+		string = string.toLowerCase();
+		//Split the string into words using built-in function
+		String words[] = string.split(" ");
+		//System.out.println(words[1]);
+		System.out.println("Duplicate words in a given string : ");
+		for(int i = 0; i < words.length; i++) {
+		count = 1;
+		for(int j = i+1; j < words.length; j++) {
+		if(words[i].equals(words[j])) {
+		count++;
+		//Set words[j] to 0 to avoid printing visited word
+		words[j] = "0";
 		}
-		System.out.println(sum + " : is the total Sum of an Array");
+		}
+		//Displays the duplicate word if count is greater than 1
+		if(count > 1 && words[i] != "0")
+		System.out.println(words[i]);
+		}
 	}
-
 }

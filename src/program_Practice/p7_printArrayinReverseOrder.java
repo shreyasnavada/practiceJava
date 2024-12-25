@@ -1,10 +1,11 @@
 package program_Practice;
 
-public class p5_printSumofArray {
+import java.util.Scanner;
+
+public class p7_printArrayinReverseOrder {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
-//	print the elements of an array in reverse order 
 //	print the largest element in an array 
 //	print the smallest element in an array 
 //	print the sum of all the items of the array 
@@ -41,17 +42,29 @@ public class p5_printSumofArray {
 //	Write a code in Java to prove that String objects are immutable 
 //	program to count the number of words in a string 
 //	program to check whether a string is a Palindrome 
+	
+//Print Duplicate String of array
+	//print the elements of an array in reverse order 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arraySum = {1,2,3,45,66,54,22};
-		int k;
-		int sum=0;
-		System.out.println(k=arraySum.length);
-		for (int i=0;i<k ; i++)
+		Scanner scanner = new Scanner(System.in);// created Object wrt scanner class
+		System.out.println("Enter the Size of the array");
+		int n = scanner.nextInt(); //read input
+		scanner.nextLine();//consume the new line
+		
+		// Declare  array of type String
+		String[] myArray = new String[n];
+		for(int i =0 ; i < n ; i++)
 		{
-			sum +=arraySum[i];
+			myArray[i]=scanner.nextLine();
 		}
-		System.out.println(sum + " : is the total Sum of an Array");
+		//System.out.println(myArray);
+		//In reverse Order
+		for(int i =n-1;i>= 0;i--)
+		{
+			System.out.println(myArray[i]);
+		}
+		//System.out.println(myArray[]);
 	}
-
-}
+	}
