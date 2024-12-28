@@ -3,7 +3,7 @@ package program_Practice;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p10_basicStringReverse {
+public class p10_recursionProgram {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
@@ -44,12 +44,21 @@ public class p10_basicStringReverse {
 //	program to count the number of words in a string 
 
 	
-//	program to check whether a string is a Palindrome 
+//	program to check whether a string is a Recursion Program 
 	
 	public static void main(String[] args) {
-		//added new comment
+		//added new program line
+		int n = 10;
+		printNumbers(n);
+	}
 	
+	public static void printNumbers(int n)
+	{
+		if (n < 0)
+			return;
+		printNumbers(n-1);
+		System.out.println(n);
 		
-
+		
 	}
 	}

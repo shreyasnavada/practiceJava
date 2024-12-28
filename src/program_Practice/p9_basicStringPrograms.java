@@ -44,19 +44,14 @@ public class p9_basicStringPrograms {
 //	program to count the number of words in a string 
 
 	
-//	program to check whether a string is a Palindrome 
-//String Program
+
+//String Program to Spli, Trim and Reverese the String
 	public static void main(String[] args) {
 		String s1 = "Rahul Shetty Academy";
-
 		String s5 = "hello";
-
 		String s2 = new String("Welcome");
-
 		String s3 = new String("Welcome");// here the String s3 points to same location of s2.
-
 		String s = "Rahul Shetty Academy";
-
 		String[] splittedString = s.split("Shetty");// value is stored in array where the split takes at shetty word
 		String[] splitStringA = s.split(" ");
 
@@ -74,6 +69,7 @@ public class p9_basicStringPrograms {
 		System.out.println(s.charAt(i));
 
 		}
+		
 	        // input string having spaces, comma etc.
 	        String s0 = "This is,comma.fullstop  whitespace";
 	        // The regex [,\\.\\s] splits the string by
@@ -93,5 +89,6 @@ public class p9_basicStringPrograms {
 	        {
 	        	System.out.println(s0.charAt(j));
 	        }
+	        // //	program to check whether a string is a Palindrome 
 	    }
 }
