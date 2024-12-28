@@ -1,8 +1,9 @@
 package program_Practice;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p7_printArrayinReverseOrder {
+public class p8_basicArrayList {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
@@ -41,10 +42,9 @@ public class p7_printArrayinReverseOrder {
 //	remove all the white spaces in a string 
 //	Write a code in Java to prove that String objects are immutable 
 //	program to count the number of words in a string 
-//	program to check whether a string is a Palindrome 
+
 	
-//Print Duplicate String of array
-	//print the elements of an array in reverse order 
+//	program to check whether a string is a Palindrome 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -75,6 +75,17 @@ public class p7_printArrayinReverseOrder {
 	            System.out.println(array[i]);
 	        }
 	        System.out.println(array);
-		
+	        
+	    ArrayList<String> array1 = new ArrayList<String>();
+	    array1.clear();
+	    array1.add("kon");
+	    array1.add("Sig");
+	    array1.add("tek");
+	    System.out.println(array1.get(0));
+	    System.out.println(array1.get(1));
+	    System.out.println(array1.get(2));
+	    //array1.addAll("jk","jjs");
+	    System.out.println("print the array" + array1.get(0) + array1.get(1) + array1);
+	    
 	}
 	}
