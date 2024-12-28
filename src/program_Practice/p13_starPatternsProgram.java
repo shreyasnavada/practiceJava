@@ -44,28 +44,105 @@ public class p13_starPatternsProgram {
 //	program to count the number of words in a string 
 
 	
-//	Reverse number using loop and method
-	
+
 	public static void main(String[] args) {
 		//added new comment
 	Scanner scanInput = new Scanner(System.in);
-	System.out.println("Enter the number to find the reverse");
+	System.out.println("Enter the value  to draw the pattern");
 	int n = scanInput.nextInt();
+	System.out.println("************************");
 	//ScanInput.close();
-	printReverseNumber(n);
+	pattern1(n);
+	pattern2(n);
+	pattern3(n);
+	pattern4(n);
+	//pattern5(n);
 	
 	}
-	//*
-	
-	public static void printReverseNumber(int n)
+	public static void pattern1(int n)
 	{
-		int remainder = 0;
-		int reverseNumber = 0;
-		for (;n!=0;n = n/10)
+		for (int i = 1 ; i <= n ; i++)
 		{
-			remainder = n%10;
-			reverseNumber =reverseNumber*10 + remainder;
+			for (int j =1 ; j <=i;j++)
+			{
+				System.out.print(j);
+				
+			}
+			System.out.println("");
 		}
-		System.out.println("Reverese Number is " + reverseNumber);
+	System.out.println("~~~~~~~~~~~~~~~~!!!!!!!!!!!!@@@@@@@@@############$$$$$$$$$$$$$");
 	}
+	public static void pattern2(int n)
+		{
+			for (int i = 1 ; i <= n ; i++)
+			{
+				for (int j =1 ; j <=i;j++)
+				{
+					System.out.print(i);
+					
+				}
+				System.out.println("");
+			}
+			System.out.println("**************************");
+
 	}
+	public static void pattern3(int n)
+	{
+		for (int i = 1 ; i <= n ; i++)
+		{
+			for (int j =1 ; j <=i;j++)
+			{
+				if (i==j)
+				{
+					System.out.print(j);
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+				
+			}
+			System.out.println("");
+		}
+		System.out.println("**************************");
+	}
+	public static void pattern4(int n)
+	{
+		for (int i = n ; i >=1 ; i--)//rows
+		{
+			for (int j =1 ; j <=i;j++)// columns
+			{
+				if (i!=j)
+				{
+					System.out.print(" ");
+				}
+				else
+				{
+					System.out.print(j);
+				}
+			}
+			System.out.println("");
+		}
+		System.out.println("**************************");
+	}
+//	public static void pattern5(int n)
+//	{
+//		for (int i = 0 ; i <=n ; i++)//rows
+//		{
+//			for (int j =0 ; j <=i;j++)// columns
+//			{
+//				if (i+j==j)
+//				{
+//					System.out.print(j);
+//				}
+//				else
+//				{
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println("");
+//		}
+//		System.out.println("**************************");
+//	}
+	
+}
