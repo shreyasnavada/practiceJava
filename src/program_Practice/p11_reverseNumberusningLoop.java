@@ -3,7 +3,7 @@ package program_Practice;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p11_basicString {
+public class p11_reverseNumberusningLoop {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
@@ -44,12 +44,27 @@ public class p11_basicString {
 //	program to count the number of words in a string 
 
 	
-//	program to check whether a string is a Palindrome 
+//	Reverse number using loop and method
 	
 	public static void main(String[] args) {
 		//added new comment
+	Scanner scanInput = new Scanner(System.in);
+	System.out.println("Enter the number to find the reverse");
+	int n = scanInput.nextInt();
+	//ScanInput.close();
+	printReverseNumber(n);
 	
-		
-
+	}
+	
+	public static void printReverseNumber(int n)
+	{
+		int remainder = 0;
+		int reverseNumber = 0;
+		for (;n!=0;n = n/10)
+		{
+			remainder = n%10;
+			reverseNumber =reverseNumber*10 + remainder;
+		}
+		System.out.println("Reverese Number is " + reverseNumber);
 	}
 	}
