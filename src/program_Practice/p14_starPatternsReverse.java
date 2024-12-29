@@ -3,7 +3,7 @@ package program_Practice;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p13_starPatternsProgram {
+public class p14_starPatternsReverse {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
