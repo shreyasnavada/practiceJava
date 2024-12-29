@@ -13,16 +13,22 @@ import java.util.Scanner;
 //String Literal program- Youtube Swaroop Nadella
 
 
-//writing logic for Number
+//writing Palindrome logic for Number and for  String
 public class p16_basicStringPrograms2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		System.out.println(" Enter the Number ");
+		System.out.println("Enter the Number ");
 		int n = input.nextInt();
+		//scan.close();
+		
+		String s = new String("");
+		s = input.next();
 		System.out.println("The User input is " + n);
+		System.out.println("The String User input is " + s);
 		checkPalindrome(n);
+		checkPalindromeString(s);
 	}
 	
 	public static void checkPalindrome(int n)
@@ -47,5 +53,23 @@ public class p16_basicStringPrograms2 {
 		}
 		
 	}
-
+	public static void checkPalindromeString(String s)
+	{
+		String reversedString = new String("");
+		for(int i=s.length()-1 ; i >=0 ; i--)
+		{
+			reversedString = reversedString + s.charAt(i);
+		}
+		System.out.println("The reveresed number is  "+ reversedString);
+		// check Palindrome case for String now
+		if(s == reversedString)
+		{
+			System.out.println("The entered String is Palindrome ");
+		}
+		else 
+		{
+			System.out.println("The entered String is NOT Palindrome ");
+		}
 }
+}
+
