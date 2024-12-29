@@ -58,7 +58,5 @@ public class p10_recursionProgram {
 			return;
 		printNumbers(n-1);
 		System.out.println(n);
-		
-		
 	}
 	}
