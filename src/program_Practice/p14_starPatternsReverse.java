@@ -52,14 +52,14 @@ public class p14_starPatternsReverse {
 	int n = scanInput.nextInt();
 	System.out.println("************************");
 	//ScanInput.close();
-	pattern1(n);
-	pattern2(n);
-	pattern3(n);
-	pattern4(n);
+	patternReverse1(n);
+//	pattern2(n);
+//	pattern3(n);
+//	pattern4(n);
 	//pattern5(n);
 	
 	}
-	public static void pattern1(int n)
+	public static void patternReverse1(int n)
 	{
 		for (int i = 1 ; i <= n ; i++)
 		{
@@ -72,77 +72,7 @@ public class p14_starPatternsReverse {
 		}
 	System.out.println("~~~~~~~~~~~~~~~~!!!!!!!!!!!!@@@@@@@@@############$$$$$$$$$$$$$");
 	}
-	public static void pattern2(int n)
-		{
-			for (int i = 1 ; i <= n ; i++)
-			{
-				for (int j =1 ; j <=i;j++)
-				{
-					System.out.print("*");
-					
-				}
-				System.out.println("");
-			}
-			System.out.println("**************************");
-
-	}
-	public static void pattern3(int n)
-	{
-		for (int i = 1 ; i <= n ; i++)
-		{
-			for (int j =1 ; j <=i;j++)
-			{
-				if (i==j)
-				{
-					System.out.print("*");
-				}
-				else
-				{
-					System.out.print(" ");
-				}
-				
-			}
-			System.out.println("");
-		}
-		System.out.println("**************************");
-	}
-	public static void pattern4(int n)
-	{
-		for (int i = n ; i >=1 ; i--)//rows
-		{
-			for (int j =1 ; j <=i;j++)// columns
-			{
-				if (i!=j)
-				{
-					System.out.print(" ");
-				}
-				else
-				{
-					System.out.print("*");
-				}
-			}
-			System.out.println("");
-		}
-		System.out.println("**************************");
-	}
-//	public static void pattern5(int n)
-//	{
-//		for (int i = 0 ; i <=n ; i++)//rows
-//		{
-//			for (int j =0 ; j <=i;j++)// columns
-//			{
-//				if (i+j==j)
-//				{
-//					System.out.print(j);
-//				}
-//				else
-//				{
-//					System.out.print(" ");
-//				}
-//			}
-//			System.out.println("");
-//		}
-//		System.out.println("**************************");
+	
 //	}
 	
 }
