@@ -3,7 +3,7 @@ package program_Practice;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p14_starPatternsReverse {
+public class p15_starPatternsReverse {
 //	
 //	find the frequency of each element in the array
 //	print the duplicate elements of an array 
@@ -53,15 +53,15 @@ public class p14_starPatternsReverse {
 	System.out.println("************************");
 	//ScanInput.close();
 	patternReverse1(n);
-//	pattern2(n);
-//	pattern3(n);
+	patternReverse2(n);
+	patternReverse3(n);
 //	pattern4(n);
 	//pattern5(n);
 	
 	}
-	public static void patternReverse1(int n)
+	public static void patternReverse1(int n)// reverse Right Angle Triangle
 	{
-		for (int i = 1 ; i <= n ; i++)
+		for (int i = n ; i >=1  ; i--)
 		{
 			for (int j =1 ; j <=i;j++)
 			{
@@ -70,8 +70,47 @@ public class p14_starPatternsReverse {
 			}
 			System.out.println("");
 		}
+	System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~");
+	}
+	public static void patternReverse2(int n)//only Stars in middle of Matrix
+	{
+		for (int i = 1 ; i <= n; i++)
+		{
+			for (int j =1 ; j <=i;j++)
+			{
+				if(j==i)
+				{
+					System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.println("");
+		}
 	System.out.println("~~~~~~~~~~~~~~~~!!!!!!!!!!!!@@@@@@@@@############$$$$$$$$$$$$$");
 	}
+	public static void patternReverse3(int n)//only Stars in middle of Matrix
+	{
+		for (int i = n ; i>=1; i--)
+		{
+			for (int j =1 ; j <=i;j++)
+			{
+				if(j==i)
+				{
+					System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.println("");
+		}
+	System.out.println("~~~~~~~~~~~~~~~~!!!!!!!!!!!!@@@@@@@@@############$$$$$$$$$$$$$");
+	}
+	
 	
 //	}
 	
