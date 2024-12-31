@@ -43,8 +43,6 @@ public class p14_PatterProgramAdvanced {
 //	Write a code in Java to prove that String objects are immutable 
 //	program to count the number of words in a string 
 
-	
-
 	public static void main(String[] args) {
 		//added new comment
 	Scanner scanInput = new Scanner(System.in);
