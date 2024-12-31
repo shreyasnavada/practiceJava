@@ -48,7 +48,7 @@ public class p9_basicStringPrograms {
 		String[] splittedString = s.split("Shetty");// value is stored in array where the split takes at shetty word
 		String[] splitStringA = s.split(" ");
 
-		System.out.println(splittedString[0]);
+		System.out.println("first char" + splittedString[0]);
 		System.out.println(splitStringA[0]);
 
 		System.out.println(splittedString[1]);

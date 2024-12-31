@@ -3,7 +3,7 @@ package program_Practice;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class p_Array_PrintArrayElement {
+public class p1_Array_PrintArrayElement {
   public static void main(String[] args) {
     // create an array
     String[] myArray = {"plant", "apocalypse", "alert"};

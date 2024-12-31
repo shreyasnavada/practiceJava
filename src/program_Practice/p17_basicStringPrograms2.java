@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 
 //writing Palindrome logic for Number and for  String
-public class p16_basicStringPrograms2 {
+public class p17_basicStringPrograms2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,11 +24,13 @@ public class p16_basicStringPrograms2 {
 		//scan.close();
 		
 		String s = new String("");
+		System.out.println("Enter the String ");
 		s = input.next();
-		System.out.println("The User input is " + n);
+		System.out.println("The User input Number  is " + n);
 		System.out.println("The String User input is " + s);
-		checkPalindrome(n);
-		checkPalindromeString(s);
+		checkPalindrome(n);// Program method to check Palindrome Number
+		checkPalindromeString(s);//Program Method to Check Palindrome String
+		//checkDuplicateCharacters(s);
 	}
 	
 	public static void checkPalindrome(int n)
