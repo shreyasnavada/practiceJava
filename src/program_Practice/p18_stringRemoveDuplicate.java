@@ -12,8 +12,6 @@ import java.util.Scanner;
 //String reverse program using method
 //String Literal program- Youtube Swaroop Nadella
 
-
-//writing Palindrome logic for Number and for  String
 public class p18_stringRemoveDuplicate {
 
 	public static void main(String[] args) {

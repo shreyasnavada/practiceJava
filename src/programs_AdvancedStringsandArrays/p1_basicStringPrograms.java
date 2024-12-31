@@ -1,4 +1,4 @@
-package programs_AdvancedStrings;
+package programs_AdvancedStringsandArrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -35,6 +35,18 @@ public class p1_basicStringPrograms {
 //	remove all the white spaces in a string 
 //	Write a code in Java to prove that String objects are immutable 
 //	program to count the number of words in a string 
+	
+//	Count Odd & Even Numbers in an Array
+//	Find Max and Min Values in an Array
+//	Finding Missing Integer in an Array
+//	First and Last Occurrence in an Array
+//	First Repeating Element in an Array
+//	Remove Duplicates in an Array
+//	Remove Duplicates from ArrayList
+//	Search an Element in an Array
+//	Second Largest Element in an Array
+//	Sort an Array
+//	Sort an Array Without Using Sort Method
 
 	
 
