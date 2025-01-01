@@ -52,14 +52,16 @@ public class p7_printArrayinReverseOrder {
 		System.out.println("Enter the Size of the array");
 		int n = scanner.nextInt(); //read input
 		scanner.nextLine();//consume the new line
-		
+		System.out.println("Size of array is " + n);
+		System.out.println("Enter the array elements");
 		// Declare  array of type String
 		String[] myArray = new String[n];
 		for(int i =0 ; i < n ; i++)
 		{
 			myArray[i]=scanner.nextLine();
 		}
-		//System.out.println(myArray);
+		System.out.println("Array elements in reverse order:");
+		//System.out.println(myArray[n]);
 		//In reverse Order
 		for(int i =n-1;i>= 0;i--)
 		{
@@ -74,7 +76,7 @@ public class p7_printArrayinReverseOrder {
 	        for (int i = array.length - 1; i >= 0; i--) {
 	            System.out.println(array[i]);
 	        }
-	        System.out.println(array);
+	        //System.out.println(array[]);
 		
 	}
 	}

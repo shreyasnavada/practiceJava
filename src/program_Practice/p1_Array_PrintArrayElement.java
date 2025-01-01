@@ -14,7 +14,7 @@ public class p1_Array_PrintArrayElement {
     {
       System.out.println(myArray[i]);
     }
-  
+    System.out.println("********************");
     // put array into Stream 
     Stream<String> myStream = Arrays.stream(myArray);
     //Stream<String> myStream1= Arrays.stream(myStream1);
