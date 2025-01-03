@@ -1,4 +1,4 @@
-package program_Practice;
+package programs_AdvancedStringsandArrays;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
 //String reverse program using method
 //String Literal program- Youtube Swaroop Nadella
 
-public class p18_stringRemoveDuplicate {
+public class p2_stringRemoveDuplicate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

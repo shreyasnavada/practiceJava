@@ -55,5 +55,17 @@ public class p19_checkLeapYear {
 				  System.out.println("Year " + year + " is a Non leap year");
 			  }
 		  }
+		  //Using Ternary Operator
+//		  int year = 1998;
+//
+//		    String result;
+//
+//		    result =
+//		      (
+//		        (year % 4 == 0 && year % 100 != 0)
+//		          ? "is a leap year."
+//		          : (year % 400 == 0) ? "is a leap year." : "is not a leap year."
+//		      );
+
 	}
 
