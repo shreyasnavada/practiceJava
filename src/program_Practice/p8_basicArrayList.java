@@ -57,7 +57,7 @@ public class p8_basicArrayList {
 		String[] myArray = new String[n];
 		for(int i =0 ; i < n ; i++)
 		{
-			myArray[i]=scanner.nextLine();
+			myArray[i]=sc.nextLine();
 		}
 		//System.out.println(myArray);
 		//In reverse Order

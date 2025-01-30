@@ -1,0 +1,72 @@
+//	
+//	find the frequency of each element in the array
+//	print the duplicate elements of an array 
+//	print the largest element in an array 
+//	print the smallest element in an array 
+//	print the sum of all the items of the array 
+//	sort the elements of an array in ascending order 
+//	find Second Largest Number in an Array 
+//	find Second Smallest Number in an Array 
+//	print Odd and Even Numbers from an Array
+//	remove all the white spaces in a string 
+//	Write a code in Java to prove that String objects are immutable 
+//	program to count the number of words in a string 
+//	program to check whether a string is a Palindrome 
+//	Reverse a string 
+//	Remove Leading zeros
+//	Print first letter of each word in a string
+//	Given a string s, find the length of the longest substring without repeating characters
+//	Reverse a String: Write a Java program to reverse a given string without using any built-in reverse methods.
+//	print the duplicate elements of an array 
+//	print the elements of an array in reverse order 
+//	print the largest element in an array 
+//	print the smallest element in an array 
+//	print the sum of all the items of the array 
+//	sort the elements of an array in ascending order 
+//	find Second Largest Number in an Array
+//	find Second Smallest Number in an Array 
+//	print Odd and Even Numbers from an Array
+//	remove all the white spaces in a string 
+//	Write a code in Java to prove that String objects are immutable 
+//	program to count the number of words in a string 
+	
+//	Count Odd & Even Numbers in an Array
+//	Find Max and Min Values in an Array
+//	Finding Missing Integer in an Array
+//	First and Last Occurrence in an Array
+//	First Repeating Element in an Array
+//	Remove Duplicates in an Array
+//	Remove Duplicates from ArrayList
+//	Search an Element in an Array
+//	Second Largest Element in an Array
+//	Sort an Array
+//	Sort an Array Without Using Sort Method
+
+	
+Basic String Programs:
+
+Reverse a String
+Check if a String is a Palindrome
+Count Vowels and Consonants in a String
+Count Occurrences of a Specific Character in a String
+Remove Duplicate Characters from a String
+Find the First Non-Repeated Character in a String
+Reverse Words in a Sentence
+Check if Two Strings are Anagrams
+Convert a String to an Integer
+Convert an Integer to a String
+
+Intermediate String Programs:
+
+Find the Longest Word in a String
+Remove All White Spaces from a String
+Find All Substrings of a Given String
+Find Duplicate Characters in a String
+Find the Frequency of Each Character in a String
+Check if a String Contains Only Digits
+Capitalize the First Letter of Each Word in a String
+Check if a String Contains Another String Without contains()
+
+Advanced String Programs:
+Check if a String Contains Only Unique Characters
+Replace All Occurrences of a Character Without replace()

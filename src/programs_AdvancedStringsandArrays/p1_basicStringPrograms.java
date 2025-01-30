@@ -4,53 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class p1_basicStringPrograms {
-//	
-//	find the frequency of each element in the array
-//	print the duplicate elements of an array 
-//	print the largest element in an array 
-//	print the smallest element in an array 
-//	print the sum of all the items of the array 
-//	sort the elements of an array in ascending order 
-//	find Second Largest Number in an Array 
-//	find Second Smallest Number in an Array 
-//	print Odd and Even Numbers from an Array
-//	remove all the white spaces in a string 
-//	Write a code in Java to prove that String objects are immutable 
-//	program to count the number of words in a string 
-//	program to check whether a string is a Palindrome 
-//	Reverse a string 
-//	Remove Leading zeros
-//	Print first letter of each word in a string
-//	Given a string s, find the length of the longest substring without repeating characters
-//	Reverse a String: Write a Java program to reverse a given string without using any built-in reverse methods.
-//	print the duplicate elements of an array 
-//	print the elements of an array in reverse order 
-//	print the largest element in an array 
-//	print the smallest element in an array 
-//	print the sum of all the items of the array 
-//	sort the elements of an array in ascending order 
-//	find Second Largest Number in an Array
-//	find Second Smallest Number in an Array 
-//	print Odd and Even Numbers from an Array
-//	remove all the white spaces in a string 
-//	Write a code in Java to prove that String objects are immutable 
-//	program to count the number of words in a string 
-	
-//	Count Odd & Even Numbers in an Array
-//	Find Max and Min Values in an Array
-//	Finding Missing Integer in an Array
-//	First and Last Occurrence in an Array
-//	First Repeating Element in an Array
-//	Remove Duplicates in an Array
-//	Remove Duplicates from ArrayList
-//	Search an Element in an Array
-//	Second Largest Element in an Array
-//	Sort an Array
-//	Sort an Array Without Using Sort Method
 
-	
-
-//String Program to Spli, Trim and Reverese the String
+//String Program to Split, Trim and Reverse the String
 	public static void main(String[] args) {
 		String s= new String("  Hari has a Sandwich ");
 		
