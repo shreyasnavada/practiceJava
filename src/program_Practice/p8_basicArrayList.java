@@ -48,10 +48,10 @@ public class p8_basicArrayList {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);// created Object wrt scanner class
+		Scanner sc = new Scanner(System.in);// created Object wrt scanner class
 		System.out.println("Enter the Size of the array");
-		int n = scanner.nextInt(); //read input
-		scanner.nextLine();//consume the new line
+		int n = sc.nextInt(); //read input
+		sc.nextLine();//consume the new line
 		
 		// Declare  array of type String
 		String[] myArray = new String[n];
