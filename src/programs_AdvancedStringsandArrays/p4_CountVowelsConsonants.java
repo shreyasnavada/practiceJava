@@ -1,6 +1,6 @@
 package programs_AdvancedStringsandArrays;
 
-public class p2_CountVowelsConsonants {
+public class p4_CountVowelsConsonants {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

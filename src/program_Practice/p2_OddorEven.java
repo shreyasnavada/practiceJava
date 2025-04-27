@@ -11,7 +11,31 @@ public class p2_OddorEven {
 		//condition? true:alse
 		
 		String result = (n%2 == 0)? n+ "result is even":"result is Odd";
+		// 
+		String result1 = (n%2 !=0)? n + "result is odd":"result is even";
 		System.out.println(result);
+		System.out.println(result1);
+		
+
+//		// Online IDE - Code Editor, Compiler, Interpreter
+//		import java.util.Scanner;
+//		public class Main
+//		{
+//		    public static void main(String[] args) {
+//		        Scanner a = new Scanner(System.in);
+//		        System.out.println("Enter the Number");
+//		        int number = a.nextInt();
+//		        System.out.println("The Number is " + number);
+//		        if(number %2 ==0 )
+//		        {
+//		           System.out.println("The Number " + number + " is EVEN NUMBER");
+//		        }else 
+//		        {
+//		             System.out.println("The Number " + number + " is ODD NUMBER");
+//		        }
+//		        }
+//		}
+
 	}
 
 }

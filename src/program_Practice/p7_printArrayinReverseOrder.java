@@ -8,9 +8,9 @@ public class p7_printArrayinReverseOrder {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);// created Object wrt scanner class
+		Scanner scanner = new Scanner(System.in);//created Object wrt scanner class
 		System.out.println("Enter the Size of the array");
-		int n = scanner.nextInt(); //read input
+		int n = scanner.nextInt();//read input
 		scanner.nextLine();//consume the new line
 		System.out.println("Size of array is " + n);
 		System.out.println("Enter the array elements");
