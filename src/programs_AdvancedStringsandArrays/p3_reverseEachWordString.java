@@ -1,7 +1,7 @@
 package programs_AdvancedStringsandArrays;
 
 import java.util.Scanner;
-
+// to reverse each word of String.
 public class p3_reverseEachWordString {
 		public static void main(String[] args) {
 		     Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class p3_reverseEachWordString {
 		    String originalStr = scanner.nextLine();
 		    scanner.close();
 		 
-		    String words[] = originalStr.split("\\s");
+		    String words[] = originalStr.split("\\s");// converting the original string to array
 		    String reversedString = "";
 		 
 		    for (int i = 0; i < words.length; i++) 
